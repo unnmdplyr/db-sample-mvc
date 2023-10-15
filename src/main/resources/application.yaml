@@ -1,0 +1,16 @@
+# https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:23306/sample_db
+    username: springuser
+    password: secret123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 28080

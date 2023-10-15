@@ -1,0 +1,31 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+ij_java_align_multiline_chained_methods = true
+ij_java_continuation_indent_size = 8
+ij_java_align_multiline_parameters_in_calls = true
+
+# YAML Files
+[*.{yml,yaml}]
+indent_size = 2
+
+# Markdown Files
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+# Batch Files
+[*.{cmd,bat}]
+end_of_line = crlf
+
+#Typescript
+[*.ts]
+quote_type = single
+
